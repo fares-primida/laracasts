@@ -5,4 +5,129 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+}
+header .logo {
+  color: #555;
+  font-size: 30px;
+  text-decoration: none;
+}
+header .header-info a {
+  text-decoration: none;
+  color: #888;
+  padding-left: 17px;
+}
+header .header-info .icon {
+  margin-left: 10px;
+  color: #555;
+  font-size: 1.2rem;
+  border-left: 2px solid #888;
+}
+header .another .login {
+  text-decoration: none;
+  color: #888;
+  border-right: 2px solid #888;
+}
+header .another .signup {
+  text-decoration: none;
+}
+
+.main-section {
+  width: 100%;
+  height: 75vh;
+}
+.main-section .main-container {
+  width: 100%;
+  height: 100%;
+}
+.main-section .main-container img {
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.main-section .main-container .category {
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+.main-section .main-container .category h2 {
+  color: rgb(20, 135, 211);
+}
+.main-section .main-container .category p {
+  color: #333;
+  opacity: 0.7;
+}
+.main-section .main-container .category button {
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(196, 192, 192);
+  transition: 0.5s ease-in-out;
+}
+.main-section .main-container .category button:hover {
+  background-color: rgb(20, 135, 211);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.carts-section {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #222;
+}
+.carts-section .title {
+  color: #fff;
+}
+.carts-section .carts-container .skill-cart {
+  margin: 10px 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.carts-section .carts-container .skill-cart .cover {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(235, 82, 82);
+  opacity: 0.5;
+}
+.carts-section .carts-container .skill-cart .cover .icon {
+  font-size: 100px;
+  text-decoration: none;
+  opacity: 0.5;
+  color: #222;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.carts-section .carts-container .skill-cart .icon-f {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #ccc;
+}
+.carts-section .carts-container .skill-cart h4 {
+  left: 50%;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  color: #ccc;
+}
+.carts-section .carts-container .tow .cover {
+  background-color: rgb(74, 74, 250);
+}
+.carts-section .carts-container .three .cover {
+  background-color: rgb(74, 250, 97);
+}
+.carts-section .carts-container .four .cover {
+  background-color: rgb(214, 21, 182);
+}
+.carts-section .carts-container .five .cover {
+  background-color: rgb(203, 250, 74);
 }/*# sourceMappingURL=style.css.map */

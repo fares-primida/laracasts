@@ -1,9 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+$main-blue: rgb(20, 135, 211);
+
 * {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    .logo {
+        color: #555;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .header-info {
+        a {
+            text-decoration: none;
+            color: #888;
+            padding-left: 17px;
+        }
+        .icon {
+            margin-left: 10px;
+            color: #555;
+            font-size: 1.2rem;
+            border-left: 2px solid #888;
+        }
+    }
+    .another {
+        .login {
+            text-decoration: none;
+            color: #888;
+            border-right: 2px solid #888;
+        }
+        .signup {
+            text-decoration: none;
+        }
+    }
+}
+
+.main-section {
+    width: 100%;
+    height: 75vh;
+    .main-container {
+        width: 100%;
+        height: 100%;
+        img {
+            left: 50%;
+            top: 70%;
+            transform: translate(-50% , -50%);
+            z-index: -1;
+        }
+        .category {
+            left: 50%;
+            top: 20%;
+            transform: translate(-50% , -50%);
+            h2 {
+                color: $main-blue;
+            }
+            p {
+                color: #333;
+                opacity: .7;
+            }
+            button {
+                border-radius: 20px;
+                cursor: pointer;
+                border: 1px solid rgb(196, 192, 192);
+                transition: .5s ease-in-out;
+            }
+            button:hover {
+                background-color: $main-blue;
+                color: #fff;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.carts-section {
+    width: 100%;
+    height: fit-content;
+    background-color: #222;
+    .title {
+        color: #fff;
+    }
+    .carts-container {
+        .skill-cart {
+            margin: 10px 30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            .cover {
+                border-radius: 10px;
+                width: 100%;
+                height: 100%;
+                background-color: rgb(235, 82, 82);
+                opacity: .5;
+                .icon {
+                    font-size: 100px;
+                    text-decoration: none;
+                    opacity: .5;
+                    color: #222;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50% , -50%);
+                }
+            }
+            .icon-f {
+                left: 50%;
+                top: 50%;
+                transform: translate(-50% , -50%);
+                font-size: 60px;
+                color: #ccc;
+            }
+            h4 {
+                left: 50%;
+                bottom: -15px;
+                transform: translate(-50% , -50%);
+                color: #ccc;
+            }
+        }
+        .tow {
+            .cover {
+                background-color: rgb(74, 74, 250);
+            }
+        }
+        .three {
+            .cover {
+                background-color: rgb(74, 250, 97);
+            }
+        }
+        .four {
+            .cover {
+                background-color: rgb(214, 21, 182);
+            }
+        }
+        .five {
+            .cover {
+                background-color: rgb(203, 250, 74);
+            }
+        }
+    }
 }
