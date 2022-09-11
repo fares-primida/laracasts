@@ -154,7 +154,7 @@ header {
 
 .featured {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     .title {
         left: 50%;
         top: 10%;
@@ -224,5 +224,31 @@ header {
                     }
             }
         }
+    }
+}
+
+.join-section {
+    width: 100%;
+    height: 40vh;
+    background-color: $main-blue;
+    opacity: .6;
+    h2 {
+        left: 50%;
+        top: 40%;
+        transform: translate(-50% , -50%);
+        color: #fff;
+    }
+    button {
+        border: 1px solid #000;
+        border-radius: 10px;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50% , -50%);
+        cursor: pointer;
+        transition: .5s ease-in-out;
+    }
+    button:hover {
+        background-color: green;
+        color: #fff;
     }
 }

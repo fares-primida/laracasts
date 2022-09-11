@@ -1,4 +1,4 @@
-let CartsContainer = document.querySelector('.carts-container')
+let CartsContainer = document.getElementById("content")
 
 
 function GetData() {
@@ -11,12 +11,13 @@ function GetData() {
         }
     }
 
-    myRequest.open("Get" , "./cars.json" , true)
+    myRequest.open("Get" , "./carts.json" , true)
     myRequest.send()
 }
+GetData()
 
 function CreateCarts(obj) {
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 1; i <= 6; i++) {
         // create the card div
         let Cart = document.createElement('div')
         Cart.classList.add('cart')

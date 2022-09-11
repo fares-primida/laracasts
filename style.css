@@ -139,7 +139,9 @@ header .another .signup {
 
 .featured {
   width: 100%;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .featured .title {
   left: 50%;
@@ -210,4 +212,30 @@ header .another .signup {
   color: #333;
   opacity: 0.8;
   font-weight: bold;
+}
+
+.join-section {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(20, 135, 211);
+  opacity: 0.6;
+}
+.join-section h2 {
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.join-section button {
+  border: 1px solid #000;
+  border-radius: 10px;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.join-section button:hover {
+  background-color: green;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
