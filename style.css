@@ -89,6 +89,8 @@ header .another .signup {
   width: 150px;
   height: 150px;
   border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 .carts-section .carts-container .skill-cart .cover {
   border-radius: 10px;
@@ -118,6 +120,9 @@ header .another .signup {
   bottom: -15px;
   transform: translate(-50%, -50%);
   color: #ccc;
+}
+.carts-section .carts-container .skill-cart:hover {
+  transform: scale(1.1);
 }
 .carts-section .carts-container .tow .cover {
   background-color: rgb(74, 74, 250);
