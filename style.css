@@ -347,4 +347,73 @@ header .another .signup {
   width: 60%;
   height: 100%;
   right: 0;
+}
+
+.subscribe {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.subscribe .title {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.subscribe .title h2 {
+  color: rgb(20, 135, 211);
+}
+.subscribe .carts-container {
+  padding: 70px 10px;
+}
+.subscribe .carts-container .cart {
+  width: 300px;
+  height: 400px;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.subscribe .carts-container .cart .title {
+  top: 0;
+  width: 100%;
+  height: 25%;
+  border-bottom: 1px solid rgb(31, 216, 230);
+}
+.subscribe .carts-container .cart .title h2 {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.subscribe .carts-container .cart .content {
+  bottom: 0;
+  width: 100%;
+  height: 75%;
+}
+.subscribe .carts-container .cart .content h2 {
+  color: #fff;
+}
+.subscribe .carts-container .cart .content h2 span {
+  font-size: 1.2rem;
+}
+.subscribe .carts-container .cart .content p {
+  color: rgb(235, 232, 232);
+}
+.subscribe .carts-container .cart .content button {
+  border: 1px solid rgb(31, 216, 230);
+  background-color: transparent;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.subscribe .carts-container .cart .content button:hover {
+  background-color: rgb(221, 0, 85);
+  transform: scale(1.1);
+  border: none;
+}
+.subscribe .carts-container .cart:hover {
+  background-color: rgb(0, 182, 238);
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
