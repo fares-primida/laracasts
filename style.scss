@@ -428,3 +428,119 @@ header {
         }
     }
 }
+
+.SignUp {
+    width: 100%;
+    height: 20vh;
+    background-color: #222;
+    .SignUp-info {
+        margin: 10px 30px;
+        h2 {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        p {
+            color: #fff;
+        }
+    }
+    .SignUp-input {
+        margin: 10px 30px;
+        input {
+            border-radius: 20px;
+            padding: 5px;
+            width: 350px;
+            height: 70px;
+        }
+    }
+    .sumbit-button {
+        button {
+            width: 100px;
+            height: 50px;
+            padding: 5px 15px;
+            border-radius: 20px;
+            background-color: $main-blue;
+            color: #fff;
+            cursor: pointer;
+            transition: .5s ease-in-out;
+        }
+        button:hover {
+            background-color: yellowgreen;
+            color: #000;
+            transform: scale(1.1);
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #111;
+    .about {
+        width: 60%;
+        height: 100%;
+        .abour-cart {
+            padding: 20px 10px;
+            width: 250px;
+            height: 300px;
+            .name {
+                color: #fff;
+            }
+            .name:before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                width: 40px;
+                height: 2px;
+                background-color: $main-blue;
+            }
+            .category {
+                bottom: 0;
+                p {
+                    color: #999;
+                }
+            }
+        }
+    }
+    .about::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 300px;
+        background-color: #444;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .contact {
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        padding: 30px;
+        .contact-cart {
+            top: 25%;
+            .name {
+                color: #777;
+            }
+            .social-icons {
+                a {
+                    text-decoration: none;
+                    font-size: 30px;
+                    margin: 0 5px;
+                    color: #777;
+                    transition: .1s ease-in-out;
+                }
+                a:hover {
+                    color: $main-blue;
+                }
+            }
+        }
+        .contact-cart-2 {
+            bottom: 20%;
+            h2 {
+                font-size: 20px;
+                color: #777;
+            }
+        }
+    }
+}

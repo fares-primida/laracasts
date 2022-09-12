@@ -416,4 +416,118 @@ header .another .signup {
 .subscribe .carts-container .cart:hover {
   background-color: rgb(0, 182, 238);
   transform: scale(1.1);
+}
+
+.SignUp {
+  width: 100%;
+  height: 20vh;
+  background-color: #222;
+}
+.SignUp .SignUp-info {
+  margin: 10px 30px;
+}
+.SignUp .SignUp-info h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.SignUp .SignUp-info p {
+  color: #fff;
+}
+.SignUp .SignUp-input {
+  margin: 10px 30px;
+}
+.SignUp .SignUp-input input {
+  border-radius: 20px;
+  padding: 5px;
+  width: 350px;
+  height: 70px;
+}
+.SignUp .sumbit-button button {
+  width: 100px;
+  height: 50px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: rgb(20, 135, 211);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.SignUp .sumbit-button button:hover {
+  background-color: yellowgreen;
+  color: #000;
+  transform: scale(1.1);
+}
+
+footer {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #111;
+}
+footer .about {
+  width: 60%;
+  height: 100%;
+}
+footer .about .abour-cart {
+  padding: 20px 10px;
+  width: 250px;
+  height: 300px;
+}
+footer .about .abour-cart .name {
+  color: #fff;
+}
+footer .about .abour-cart .name:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: rgb(20, 135, 211);
+}
+footer .about .abour-cart .category {
+  bottom: 0;
+}
+footer .about .abour-cart .category p {
+  color: #999;
+}
+footer .about::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 300px;
+  background-color: #444;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+footer .contact {
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+}
+footer .contact .contact-cart {
+  top: 25%;
+}
+footer .contact .contact-cart .name {
+  color: #777;
+}
+footer .contact .contact-cart .social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 5px;
+  color: #777;
+  transition: 0.1s ease-in-out;
+}
+footer .contact .contact-cart .social-icons a:hover {
+  color: rgb(20, 135, 211);
+}
+footer .contact .contact-cart-2 {
+  bottom: 20%;
+}
+footer .contact .contact-cart-2 h2 {
+  font-size: 20px;
+  color: #777;
 }/*# sourceMappingURL=style.css.map */
