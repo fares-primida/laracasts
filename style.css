@@ -36,6 +36,44 @@ header .another .signup {
   text-decoration: none;
 }
 
+.main-section {
+  width: 100%;
+  height: 75vh;
+}
+.main-section .main-container {
+  width: 100%;
+  height: 100%;
+}
+.main-section .main-container img {
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.main-section .main-container .category {
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+.main-section .main-container .category h2 {
+  color: rgb(20, 135, 211);
+}
+.main-section .main-container .category p {
+  color: #333;
+  opacity: 0.7;
+}
+.main-section .main-container .category button {
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(196, 192, 192);
+  transition: 0.5s ease-in-out;
+}
+.main-section .main-container .category button:hover {
+  background-color: rgb(20, 135, 211);
+  color: #fff;
+  transform: scale(1.1);
+}
+
 @media (max-width: 720px) {
   header .logo {
     font-size: 20px;
@@ -93,44 +131,6 @@ header .another .signup {
     width: 300px;
   }
 }
-.main-section {
-  width: 100%;
-  height: 75vh;
-}
-.main-section .main-container {
-  width: 100%;
-  height: 100%;
-}
-.main-section .main-container img {
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-.main-section .main-container .category {
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%, -50%);
-}
-.main-section .main-container .category h2 {
-  color: rgb(20, 135, 211);
-}
-.main-section .main-container .category p {
-  color: #333;
-  opacity: 0.7;
-}
-.main-section .main-container .category button {
-  border-radius: 20px;
-  cursor: pointer;
-  border: 1px solid rgb(196, 192, 192);
-  transition: 0.5s ease-in-out;
-}
-.main-section .main-container .category button:hover {
-  background-color: rgb(20, 135, 211);
-  color: #fff;
-  transform: scale(1.1);
-}
-
 .carts-section {
   width: 100%;
   height: -webkit-fit-content;
@@ -202,7 +202,7 @@ header .another .signup {
 }
 .featured .title {
   left: 50%;
-  top: 10%;
+  top: 5%;
   transform: translate(-50%, -50%);
 }
 .featured .title h4 {
@@ -260,10 +260,12 @@ header .another .signup {
 .featured .carts-container .cart .info h5 {
   color: purple;
   font-weight: bold;
+  font-size: 1rem;
 }
 .featured .carts-container .cart .info h2 {
   color: rgb(20, 135, 211);
   font-weight: bold;
+  font-size: 25px;
 }
 .featured .carts-container .cart .info p {
   color: #333;

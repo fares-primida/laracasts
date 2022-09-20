@@ -6,28 +6,28 @@
         "category_1" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolor beatae illum nisi, doloremque facere aliquam. Dolore quasi ad nam eius architecto cum aliquid quod hic. Delectus voluptatem recusandae quo?",
         
         "image_2": "./Images/s.png",
-        "title_2": "php",
-        "info_2": "php 7 up and running",
+        "title_2": "Tolling",
+        "info_2": "Sumlime Text Mastery",
         "category_2" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolor beatae illum nisi, doloremque facere aliquam. Dolore quasi ad nam eius architecto cum aliquid quod hic. Delectus voluptatem recusandae quo?",
         
-        "image_3": "./Images/images.png",
-        "title_3": "php",
-        "info_3": "php 7 up and running",
+        "image_3": "./Images/laravel-6-from-scratch.png",
+        "title_3": "Laravel",
+        "info_3": "Real-Time Laravel With Socket.io",
         "category_3" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolor beatae illum nisi, doloremque facere aliquam. Dolore quasi ad nam eius architecto cum aliquid quod hic. Delectus voluptatem recusandae quo?",
         
-        "image_4": "./Images/images.png",
-        "title_4": "php",
-        "info_4": "php 7 up and running",
+        "image_4": "./Images/Vue-logo-1.png",
+        "title_4": "JavaScript",
+        "info_4": "Learning Vue 1.0 Step By Step",
         "category_4" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolor beatae illum nisi, doloremque facere aliquam. Dolore quasi ad nam eius architecto cum aliquid quod hic. Delectus voluptatem recusandae quo?",
         
-        "image_5": "./Images/images.png",
+        "image_5": "./Images/monster.jpg",
         "title_5": "php",
-        "info_5": "php 7 up and running",
+        "info_5": "Whibe Monstrsous Code Intero Shape",
         "category_5" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolor beatae illum nisi, doloremque facere aliquam. Dolore quasi ad nam eius architecto cum aliquid quod hic. Delectus voluptatem recusandae quo?",
         
-        "image_6": "./Images/images.png",
-        "title_6": "php",
-        "info_6": "php 7 up and running",
+        "image_6": "./Images/testing.jpg",
+        "title_6": "Testing",
+        "info_6": "Testing Laravel",
         "category_6" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolor beatae illum nisi, doloremque facere aliquam. Dolore quasi ad nam eius architecto cum aliquid quod hic. Delectus voluptatem recusandae quo?"
         
     }
