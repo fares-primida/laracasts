@@ -92,6 +92,44 @@ header {
 }
 }
 
+@media (max-width: 430px) {
+    header {
+        .logo {
+            font-size: 1rem;
+        }
+        .another {
+            .login {
+                font-size: 1rem;
+            }
+            .signup {
+                font-size: 1rem;
+            }
+        }
+}
+    .main-section {
+        .main-container {
+            .category {
+                h2 {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    header {
+        margin-bottom: 30px;
+    }
+
+    .main-section {
+        .main-container {
+            img {
+                width: 300px;
+            }
+        }
+    }
+}
+
 .main-section {
     width: 100%;
     height: 75vh;
