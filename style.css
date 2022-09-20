@@ -276,7 +276,7 @@ header .another .signup {
 .join-section {
   width: 100%;
   height: 40vh;
-  background-color: rgb(20, 135, 211);
+  background-color: #222;
   opacity: 0.6;
 }
 .join-section h2 {
